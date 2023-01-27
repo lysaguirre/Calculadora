@@ -1,9 +1,56 @@
-body {
+* {
   font-family: "Kumbh Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: white;
+.container {
+  background-color: none;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .calculadora {
+    display: grid;
+    grid-template-columns: repeat(4, 75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color: gray;
+    border-radius: 30px;
+    box-shadow: 15px 10px 0px 1px;
+    .calculadora__display {
+      grid-column: 1 / -1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      border-radius: 20px;
+      align-items: flex-end;
+      color: white;
+      background-color: black;
+      justify-content: space-between;
+      text-align: right;
+      box-shadow: 0px 0px 10px;
+    }
+    button {
+      border-radius: 30px;
+      cursor: pointer;
+      margin: 5px;
+      font-size: 25px;
+      font-weight: bold;
+      border: none;
+      background-color: rgb(97, 97, 97);
+      box-shadow: 5px 5px 10px -3px;
+    }
+    button:active {
+      background-color: rgb(78, 76, 76);
+      border: none;
+      color: white;
+    }
+    button:focus {
+      outline: none;
+    }
+  }
 }
