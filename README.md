@@ -1,6 +1,6 @@
 # Calculadora
-Trabajo de practica.
 
+Trabajo de practica.
 
 Herramientas utilizadas:
 
@@ -9,5 +9,6 @@ Herramientas utilizadas:
 - SASS
 - Javascript
 
-
 Gracias por visitar.
+
+// se trabaja sobre estilado
