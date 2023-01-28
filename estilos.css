@@ -36,6 +36,15 @@
   text-align: right;
   box-shadow: 0px 0px 10px;
 }
+.container .calculadora .calculadora__display .calculadora__display-actual {
+  font-size: 32px;
+}
+.container .calculadora .calculadora__display .calculadora__display-anterior {
+  font-size: 25px;
+}
+.container .calculadora .col {
+  grid-column: span 2;
+}
 .container .calculadora button {
   border-radius: 30px;
   cursor: pointer;

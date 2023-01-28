@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:ital,wght@0,200;0,400;0,700;1,500&family=Ubuntu:ital,wght@0,300;1,300;1,500&display=swap"
       rel="stylesheet"
     />
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="Calculadora.js" type="text/javascript"></script>
     <link rel="stylesheet" href="estilos.css" />
     <title>Calculadora</title>
   </head>
@@ -18,10 +20,10 @@
     <div class="container">
       <div class="calculadora">
         <div class="calculadora__display">
-          <div class="calculadora__display-anterior">132</div>
-          <div class="calculadora__display-actual">1231</div>
+          <div class="calculadora__display-anterior"></div>
+          <div class="calculadora__display-actual"></div>
         </div>
-        <button>C</button>
+        <button class="col">C</button>
         <button>&larr;</button>
         <button class="operador">/</button>
         <button class="numero">7</button>
@@ -36,7 +38,7 @@
         <button class="numero">2</button>
         <button class="numero">3</button>
         <button class="operador">+</button>
-        <button class="numero">0</button>
+        <button class="col numero">0</button>
         <button class="numero">.</button>
         <button class="operador">=</button>
       </div>
@@ -44,5 +46,5 @@
   </body>
 </html>
 
-<!-- https://www.youtube.com/watch?v=7YDagj3cVAk 5 min
+<!-- https://www.youtube.com/watch?v=7YDagj3cVAk 20.36 min
  -->
